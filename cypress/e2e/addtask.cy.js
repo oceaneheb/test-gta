@@ -1,6 +1,6 @@
 describe('template spec', () => {
   it('passes', () => {
-    cy.visit('https://oceaneheb.github.io/tes-gta/')
+    cy.visit('https://oceaneheb.github.io/test-gta/')
     cy.get('input[placeholder="Ajouter une tâche"]')
       .type('Faire les courses')
     cy.get('button').click()
